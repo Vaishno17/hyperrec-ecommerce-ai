@@ -1,0 +1,34 @@
+hyper-personalized-ecommerce-recommender/
+│
+├── data/
+│   ├── customer_data_collection.csv
+│   └── product_recommendation_data.csv
+│
+├── database/
+│   ├── database_setup.py
+│   └── ecommerce_recommendations.db (auto-generated)
+│
+├── agents/
+│   ├── __init__.py
+│   ├── customer_profiler.py
+│   ├── product_analyzer.py
+│   ├── recommendation_engine.py
+│   ├── emotional_analyzer.py
+│   ├── social_proof_engine.py
+│   └── discount_engine.py
+│
+├── ui/
+│   ├── app.py (Streamlit main app)
+│   ├── components/
+│   │   ├── product_card.py
+│   │   ├── visual_search.py
+│   │   └── sentiment_display.py
+│   └── assets/
+│       └── placeholder_images/
+│
+├── tests/
+│   ├── test_recommendations.py
+│   └── test_database.py
+│
+├── requirements.txt
+└── README.md
